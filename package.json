@@ -1,5 +1,5 @@
 {
-  "name": "s3-bucket-toolkit",
+  "name": "s3-bucket-multipart-toolkit",
   "version": "0.0.17",
   "description": "S3 Bucket Listing and Versioning removal made easy",
   "main": "lib/bucket.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cortezcristian/s3-bucket-toolkit.git"
+    "url": "git+https://github.com/hharutyunov/s3-bucket-toolkit.git"
   },
   "keywords": [
     "S3",
@@ -44,12 +44,12 @@
     "remove",
     "delete"
   ],
-  "author": "Cristian Cortez",
+  "author": "Protranslating",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cortezcristian/s3-bucket-toolkit/issues"
+    "url": "https://github.com/hharutyunov/s3-bucket-toolkit/issues"
   },
-  "homepage": "https://github.com/cortezcristian/s3-bucket-toolkit#readme",
+  "homepage": "https://github.com/hharutyunov/s3-bucket-toolkit#readme",
   "dependencies": {
     "aws-sdk": "^2.229.1",
     "bluebird": "^3.5.1"

@@ -1,5 +1,5 @@
 # s3-bucket-toolkit
-[![CircleCI](https://circleci.com/gh/cortezcristian/s3-bucket-toolkit/tree/master.svg?style=svg)](https://circleci.com/gh/cortezcristian/s3-bucket-toolkit/tree/master)
+[![CircleCI](https://circleci.com/gh/hharutyunov/s3-bucket-toolkit/tree/master.svg?style=svg)](https://circleci.com/gh/hharutyunov/s3-bucket-toolkit/tree/master)
 
 S3 Bucket APIs calls made easy
 
