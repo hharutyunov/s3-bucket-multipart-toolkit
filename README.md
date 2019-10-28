@@ -96,6 +96,28 @@ bucket.copyFile({
 */
 ```
 
+### Copy File Large
+
+`copyFileLarge(Object, Boolean)` function can copy files greater than 5mb between buckets or in the same bucket. Pass a second parameter as true when copying files inside the same bucket (will automatically append the bucket prefix). Otherwise pass the entire bucket URL.
+
+
+```js
+bucket.copyLargeFile({
+  CopySource: 'upload-test.txt',
+  Key: 'upload-test-copied.txt'
+}, true).then(function(res){
+  /* res.url => S3 copy url */
+}).catch(function(err){
+  /* err */
+});
+
+/*
+ Result:
+{ response: { ETag: '"abc..."', CopySourceVersionId: 'def...', CopyObjectResult: { ... } },
+  url: 'https://your-bucket-name.s3.amazonaws.com/upload-test-copied.txt' } }
+*/
+```
+
 ### Upload Multiple Files
 
 ```js
