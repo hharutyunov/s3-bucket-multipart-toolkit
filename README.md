@@ -96,16 +96,16 @@ bucket.copyFile({
 */
 ```
 
-### Copy File Large
+### Copy File Multipart
 
-`copyFileLarge(Object, Boolean)` function can copy files greater than 5mb between buckets or in the same bucket. Pass a second parameter as true when copying files inside the same bucket (will automatically append the bucket prefix). Otherwise pass the entire bucket URL.
+`copyFileMultipart(Object, Boolean, fileSize)` function can copy files greater than 5mb between buckets or in the same bucket. Pass a second parameter as true when copying files inside the same bucket (will automatically append the bucket prefix). Otherwise pass the entire bucket URL.
 
 
 ```js
-bucket.copyLargeFile({
+bucket.copyFileMultipart({
   CopySource: 'upload-test.txt',
-  Key: 'upload-test-copied.txt'
-}, true).then(function(res){
+  Key: 'upload-test-copied.txt',
+}, true, 50000000).then(function(res){
   /* res.url => S3 copy url */
 }).catch(function(err){
   /* err */
