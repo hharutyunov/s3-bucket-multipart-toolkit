@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hharutyunov/s3-bucket-toolkit.git"
+    "url": "git+https://github.com/hharutyunov/s3-bucket-multipart-toolkit"
   },
   "keywords": [
     "S3",
@@ -47,9 +47,9 @@
   "author": "Protranslating",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hharutyunov/s3-bucket-toolkit/issues"
+    "url": "https://github.com/hharutyunov/s3-bucket-multipart-toolkit/issues"
   },
-  "homepage": "https://github.com/hharutyunov/s3-bucket-toolkit#readme",
+  "homepage": "https://github.com/hharutyunov/s3-bucket-multipart-toolkit#readme",
   "dependencies": {
     "aws-sdk": "^2.229.1",
     "bluebird": "^3.5.1"
